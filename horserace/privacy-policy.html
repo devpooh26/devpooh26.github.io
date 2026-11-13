@@ -75,12 +75,39 @@
   }
   th { background: var(--head-bg); white-space: nowrap; }
   footer { margin-top: 48px; color: var(--muted); font-size: 0.9rem; }
+  .lang {
+    display: flex;
+    gap: 8px;
+    margin: 0 0 32px;
+  }
+  .lang a {
+    padding: 6px 14px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface);
+    text-decoration: none;
+  }
+  .section-title {
+    font-size: 1.45rem;
+    margin: 56px 0 4px;
+    padding-top: 24px;
+    border-top: 4px solid var(--line);
+    border-bottom: none;
+  }
 </style>
 </head>
 <body>
 <main>
-  <h1>HorseRace 개인정보처리방침</h1>
-  <p class="meta">시행일: 2026년 10월 25일 · 개발자: DevPooh26</p>
+  <h1>HorseRace 개인정보처리방침<br>Privacy Policy</h1>
+  <p class="meta">시행일 / Effective date: 2026-11-13 · 개발자 / Developer: DevPooh26</p>
+  <nav class="lang">
+    <a href="#ko">한국어</a>
+    <a href="#en">English</a>
+  </nav>
+
+  <!-- ===================== 한국어 ===================== -->
+  <section id="ko" lang="ko">
+  <h2 class="section-title">한국어</h2>
 
   <h2>1. 개요</h2>
   <p>HorseRace(이하 "앱")의 개발자는 이용자의 개인정보를 직접 수집하지 않습니다. 다만 앱 안의 광고를 위해 Google AdMob이 광고 ID 등 기기 정보를 수집할 수 있습니다.</p>
@@ -158,6 +185,89 @@
     <li>개발자: DevPooh26</li>
     <li>이메일: <a href="mailto:devpooh.support@gmail.com">devpooh.support@gmail.com</a></li>
   </ul>
+  </section>
+
+  <!-- ===================== English ===================== -->
+  <section id="en" lang="en">
+  <h2 class="section-title">English</h2>
+
+  <h2>1. Overview</h2>
+  <p>The developer of HorseRace (the "App") does not collect your personal data directly. However, Google AdMob may collect device information, such as your advertising ID, to show ads in the App.</p>
+  <ul>
+    <li>App name: HorseRace</li>
+    <li>Developer: DevPooh26</li>
+    <li>Scope: the HorseRace Android app distributed on Google Play (package <code>com.devpooh26.horserace</code>)</li>
+  </ul>
+
+  <h2>2. Information collected</h2>
+  <p>The App has no accounts or sign-in. It does not ask for or store your name, contact details, location or photos, and it does not send game records to the developer's servers.</p>
+  <p>Third-party tools included in the App may automatically collect the following information.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Item</th><th>Examples</th><th>Collected by</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Advertising ID</td><td>Android advertising ID</td><td>Google AdMob</td></tr>
+        <tr><td>Device information</td><td>Device model, OS version, language, screen size</td><td>Google AdMob, Unity</td></tr>
+        <tr><td>Network information</td><td>IP address (used to estimate approximate region)</td><td>Google AdMob</td></tr>
+        <tr><td>Ad interactions</td><td>Whether an ad was shown or clicked</td><td>Google AdMob</td></tr>
+        <tr><td>Crash information</td><td>Diagnostic data when the App closes unexpectedly</td><td>Unity</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>3. Third-party services</h2>
+  <p>The services below handle information under their own privacy policies.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Service</th><th>Purpose</th><th>Privacy policy</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Google AdMob</td>
+          <td>Banner ads at the bottom of the screen</td>
+          <td><a href="https://policies.google.com/privacy">Google Privacy Policy</a><br><a href="https://policies.google.com/technologies/partner-sites">How Google uses data from partner sites</a></td>
+        </tr>
+        <tr>
+          <td>Unity</td>
+          <td>Game engine</td>
+          <td><a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>4. Use, retention and sharing</h2>
+  <ul>
+    <li><strong>Purpose</strong>: showing ads, measuring ad performance, preventing invalid clicks and analyzing crashes</li>
+    <li><strong>Retention</strong>: the developer does not collect or keep any personal data. Information collected by third parties is kept under their own policies.</li>
+    <li><strong>Sharing</strong>: the developer does not sell or share your information. Information is collected directly by the third-party services in section 3.</li>
+    <li><strong>Security in transit</strong>: data exchanged with third-party services is encrypted (HTTPS).</li>
+    <li><strong>International transfer</strong>: Google and Unity may process information on servers outside your country.</li>
+  </ul>
+
+  <h2>5. Your choices</h2>
+  <ul>
+    <li><strong>Reset or delete your advertising ID</strong>: go to <em>Settings → Privacy (or Google) → Ads</em> on your device. Menu names may vary by device.</li>
+    <li><strong>Turn off personalized ads</strong>: if you delete your advertising ID, you will see non-personalized ads instead.</li>
+    <li><strong>Stop collection</strong>: uninstalling the App stops all collection through the App.</li>
+  </ul>
+
+  <h2>6. Children's privacy</h2>
+  <p>The App is not directed at children under 13, and the developer does not knowingly collect personal data from children.</p>
+
+  <h2>7. Changes to this policy</h2>
+  <p>If this policy changes, the new version will be posted on this page and the effective date above will be updated.</p>
+
+  <h2>8. Contact</h2>
+  <p>For privacy questions, please email:</p>
+  <ul>
+    <li>Developer: DevPooh26</li>
+    <li>Email: <a href="mailto:devpooh.support@gmail.com">devpooh.support@gmail.com</a></li>
+  </ul>
+  </section>
 
   <footer>© 2026 DevPooh26</footer>
 </main>
